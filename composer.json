@@ -1,0 +1,24 @@
+{
+  "name": "wernerjoss/downcounter",
+  "type": "grav-plugin",
+  "description": "creates a nice circular down counter",
+  "keywords": ["circular down counter"],
+  "homepage": "https://github.com/wernerjoss/grav-plugin-downcounter",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Werner Joss",
+      "email": "werner@hoernerfranzracing.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grav\\Plugin\\DownCounter\\": "classes/"
+    },
+    "classmap":  ["downcounter.php"]
+  }
+}
