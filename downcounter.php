@@ -73,7 +73,7 @@ class DownCounterPlugin extends Plugin
         /** @var Assets */
         $assets = $this->grav['assets'];
         $config = $this->config->get('plugins.downcounter');
-        $assets->addJs('plugins://' . $this->name . '/assets/TimeCircles.js', ['group' => 'bottom']);
+        $assets->addJs('plugins://' . $this->name . '/assets/TimeCircles.min.js', ['group' => 'bottom']);
         $assets->addJs('plugins://' . $this->name . '/assets/dc.js', ['group' => 'bottom']);
         $assets->addCss('plugins://' . $this->name . '/assets/TimeCircles.css');
     }

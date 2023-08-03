@@ -2,7 +2,7 @@
 namespace Grav\Plugin\Shortcodes;
 use Thunder\Shortcode\Shortcode\ShortcodeInterface;
 
-class FullCalendarShortcode extends Shortcode {
+class DownCounterShortcode extends Shortcode {
     public function init() {
         $this->shortcode->getHandlers()->add('downcounter', function(ShortcodeInterface $sc) {
             $s = $sc->getContent();
