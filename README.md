@@ -1,8 +1,6 @@
 # Down Counter Plugin
 
-**This README.md file should be modified to describe the features, installation, configuration, and general usage of the plugin.**
-
-The **Down Counter** Plugin is an extension for [Grav CMS](https://github.com/getgrav/grav). creates a nice circular down counter
+The **Down Counter** Plugin is an extension for [Grav CMS](https://github.com/getgrav/grav). It creates a nice circular down counter
 
 ## Installation
 
@@ -44,13 +42,15 @@ Note that if you use the Admin Plugin, a file with your configuration named down
 
 ## Usage
 
-**Describe how to use the plugin.**
+You can add a nice Down Counter to any Page in your Grav Site by just adding a shortcode somewhere in your Page's .md File,
+e.g. ```[downcounter due_date="2023-08-30 12:00:00"][/downcounter]``` where the due_date is the date/time until the Coundown proceeds.
+This will look like ![counter.png](./counter.png)
 
 ## Credits
 
-**Did you incorporate third-party code? Want to thank somebody?**
+This Plugin uses [TimeCircles](https://github.com/wimbarelds/TimeCircles) for Display/Animation of the Counter.
 
 ## To Do
 
-- [ ] Future plans, if any
+- [ ] Localisation
 
