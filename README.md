@@ -22,7 +22,7 @@ You should now have all the plugin files under
 
     /your/site/grav/user/plugins/downcounter
 
-> NOTE: This plugin is a modular component for Grav which may require other plugins to operate, please see its [blueprints.yaml-file on GitHub](https://github.com/wernerjoss/grav-plugin-downcounter/blueprints.yaml).
+> NOTE: This plugin is a modular component for Grav which may require other plugins to operate, please see its [blueprints.yaml-file on GitHub](https://github.com/wernerjoss/grav-plugin-downcounter/blob/main/blueprints.yaml).
 
 ### Admin Plugin
 
