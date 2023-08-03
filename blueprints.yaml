@@ -3,12 +3,11 @@ slug: downcounter
 type: plugin
 version: 0.1.0
 description: creates a nice circular down counter
-icon: plug
+icon: clock-o
 author:
   name: Werner Joss
   email: wernerjoss
 homepage: https://github.com/wernerjoss/grav-plugin-downcounter
-demo: http://demo.yoursite.com
 keywords: grav, plugin, circular counter
 bugs: https://github.com/wernerjoss/grav-plugin-downcounter/issues
 docs: https://github.com/wernerjoss/grav-plugin-downcounter/README.md
