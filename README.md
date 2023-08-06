@@ -6,7 +6,7 @@ The **Down Counter** Plugin is an extension for [Grav CMS](https://github.com/ge
 
 Installing the Down Counter plugin can be done in one of three ways: The GPM (Grav Package Manager) installation method lets you quickly install the plugin with a simple terminal command, the manual method lets you do so via a zip file, and the admin method lets you do so via the Admin Plugin.
 
-### GPM Installation (Preferred)
+### GPM Installation (Preferred, but currently NOT available !)
 
 To install the plugin via the [GPM](https://learn.getgrav.org/cli-console/grav-cli-gpm), through your system's terminal (also called the command line), navigate to the root of your Grav-installation, and enter:
 
@@ -26,7 +26,7 @@ You should now have all the plugin files under
 
 ### Admin Plugin
 
-If you use the Admin Plugin, you can install the plugin directly by browsing the `Plugins`-menu and clicking on the `Add` button.
+If you use the Admin Plugin, you can install the plugin directly by browsing the `Plugins`-menu and clicking on the `Add` button (currently NOT available, see GPM Installation above).
 
 ## Configuration
 
@@ -43,8 +43,9 @@ Note that if you use the Admin Plugin, a file with your configuration named down
 ## Usage
 
 You can add a nice Down Counter to any Page in your Grav Site by just adding a shortcode somewhere in your Page's .md File,
-e.g. ```[downcounter due_date="2023-08-30 12:00:00"][/downcounter]``` where the due_date is the date/time until the Countdown proceeds (when due_date is reached, the Counter stops).
-It will look like this: ![counter.png](./counter.png)
+e.g. ```[downcounter due_date="2023-08-30 12:00:00"][/downcounter]``` where the due_date is the date/time until the Countdown proceeds (when due_date is reached, the Counter stops).  
+It will look like this: ![counter.png](./counter.png)  
+Note that ATM, the Format of the due_date Parameter must be 'YYYY-MM-DD hh:mm:ss' - maybe there will be other formatting Options (depending on Language Setting) in the future.
 
 ## Credits
 

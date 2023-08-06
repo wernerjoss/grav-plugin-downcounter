@@ -6,7 +6,7 @@ description: creates a nice circular down counter
 icon: clock-o
 author:
   name: Werner Joss
-  email: wernerjoss
+  email: wernerjoss@users.noreply.github.com
 homepage: https://github.com/wernerjoss/grav-plugin-downcounter
 keywords: grav, plugin, circular counter
 bugs: https://github.com/wernerjoss/grav-plugin-downcounter/issues
@@ -15,6 +15,7 @@ license: MIT
 
 dependencies:
   - { name: grav, version: '>=1.7.0' }
+  - shortcode-core: shortcode-core
 
 form:
   validation: loose
