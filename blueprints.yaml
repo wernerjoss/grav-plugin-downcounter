@@ -30,7 +30,3 @@ form:
         0: PLUGIN_ADMIN.DISABLED
       validate:
         type: bool
-    text_var:
-      type: text
-      label: PLUGIN_DOWN_COUNTER.TEXT_VARIABLE
-      help: PLUGIN_DOWN_COUNTER.TEXT_VARIABLE_HELP
