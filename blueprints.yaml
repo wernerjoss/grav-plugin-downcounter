@@ -1,7 +1,7 @@
 name: Down Counter
 slug: downcounter
 type: plugin
-version: 0.1.0
+version: 0.1.1
 description: creates a nice circular down counter
 icon: clock-o
 author:
