@@ -8,6 +8,7 @@ author:
   name: Werner Joss
   email: wernerjoss@users.noreply.github.com
 homepage: https://github.com/wernerjoss/grav-plugin-downcounter
+demo: https://hoernerfranzracing.de/werner/en/demo/downcounter
 keywords: grav, plugin, circular counter
 bugs: https://github.com/wernerjoss/grav-plugin-downcounter/issues
 docs: https://github.com/wernerjoss/grav-plugin-downcounter/README.md
