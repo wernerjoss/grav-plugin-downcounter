@@ -2,6 +2,9 @@
 
 The **Down Counter** Plugin is an extension for [Grav CMS](https://github.com/getgrav/grav). It creates a nice circular down counter on any Page by using a Shortcode.
 
+## Demo
+[https://hoernerfranzracing.de/werner/en/demo/downcounter](https://hoernerfranzracing.de/werner/en/demo/downcounter)
+
 ## Installation
 
 Installing the Down Counter plugin can be done in one of three ways: The GPM (Grav Package Manager) installation method lets you quickly install the plugin with a simple terminal command, the manual method lets you do so via a zip file, and the admin method lets you do so via the Admin Plugin.
