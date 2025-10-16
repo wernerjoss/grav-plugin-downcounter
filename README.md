@@ -1,5 +1,7 @@
 # Down Counter Plugin
 
+## please note that this Plugin is no longer supported an will be archived soon, as I have given up on Grav development since my switch to [Hugo](https://gohugo.io) in 2024.
+
 The **Down Counter** Plugin is an extension for [Grav CMS](https://github.com/getgrav/grav). It creates a nice circular down counter on any Page by using a Shortcode.
 
 ## Demo
